@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Inter:wght@200;300;400;700;800&family=Oswald:wght@700&family=Playfair+Display&family=Roboto+Mono:wght@300&display=swap');
+
+/* --- Grundlagen */
+* {
+    margin: 0 0;
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+
+    
+    
+    
+}
+
+/* --- Header */
+header h1{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 3rem;
+    /* margin-top: 3rem; */
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+header {
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    width: 100%;
+    margin-bottom: -5rem;
+    text-align: center;
+}
+
+.name {
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20rem;   
+}
+
+.intro-article {
+    display: flex;
+    gap: 10%;
+}
+
+.intro-image {
+    width: 55%;
+    margin-left: 10%;
+}
+
+.intro-image img {
+    width: 100%;
+}
+
+/* Titel */
+.intro-text h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 7rem;
+    padding-top: 5rem;
+}
+.intro-text {
+    width: 35%;
+}
+
+.intro-article h1 {
+    margin-left: -60%;
+}
+/***************************Burger Menu***********************************/
+
+.burger-menu {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.burger-icon {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 999;
+    position: relative;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+
+}
+
+.menu-div {
+    display: none;
+    position: fixed;
+    top: 60px;
+    right: 10px;
+    flex-direction: column;
+    background-color: #7373cc;
+    padding: 10px;
+    border: 1px solid #7373cc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+
+    text-decoration: none;
+} 
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+ 
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+    
+
+}
+
+.menu-div.active {
+    display: flex;
+
+}
+
+
+
+/***************************** Inhalt ********************************/
+main {
+    max-width: 1500px;
+    padding: 100px 0;
+    margin: 0 auto;
+    min-height: 60vh;
+    color: #000000;
+}
+
+main a:hover {
+  text-decoration: none;
+}
+
+
+.dein-text-klasse {
+    clear: left; /* sorgt dafür, dass der Text unterhalb des Bildes nicht umbricht */
+}
+
+.bild1 {
+    margin-top: 20rem;
+    display: flex;
+    text-align: justify;
+}
+
+.absatz_1 {
+    display: flex;
+   margin-left: 50%;
+   margin-top: -4rem;
+   margin-bottom: -5rem;
+   text-align: justify;
+   margin-right: 2%;
+}
+
+.bild2 {
+    margin-top: 10rem;
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+    height: auto;
+
+}
+
+.absatz_2 {
+    text-align: center;
+    margin-top: 10rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bild3{
+    margin-top: 10rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+.absatz_3 {
+    text-align: center;
+    margin-top: -13rem;
+    margin-bottom: 4rem;
+    color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bild4 {
+    display: flex;
+    padding-right: 0%;
+    margin-bottom: 10rem;
+}
+
+
+.absatz_4 {
+    text-align: justify;
+    margin-left: 50%;
+    width: 30%;
+    margin-top: -30rem ;
+}
+
+
+/* --- Footer */
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #3a3a3a;
+    color: white;
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+        width: 100%;
+        overflow-x: hidden;
+
+    }
+   
+
+    .intro-text h1 {
+        margin-right: 2rem;
+        font-size: 4rem;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+.absatz_3{
+    margin-top: -20rem;
+}
+
+.absatz_4 {
+    margin-top: 1rem;
+    margin-right: 3rem;
+    width: 15rem;
+text-align: justify;
+  
+}
+
+footer{
+    align-items: center;
+}
+}
+
+
+@media only screen and (max-width: 450px) {
+
+}
