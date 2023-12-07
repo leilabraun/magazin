@@ -21,4 +21,3 @@ Um erhlich zu sein, war das ganze Projekt eine Challenge für mich. Schon für m
 
 
 
-https://www.markdownguide.org/cheat-sheet/
