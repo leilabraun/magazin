@@ -10,7 +10,7 @@ Dort habe ich mit Gridcontainer gearbeitet. Ich habe aber gemerkt, dass ich eine
 Daher habe ich ein Wordpress Theme erstellt. Dazu habe ich mir nocheinmal die Anleitung neunschrittetheme angeschaut. Ich habe das Plugin AFC installiert und mit Field Groups gearbeitet.
 
 # Challenge
-Um erhlich zu sein, war das ganze Projekt eine Challenge für mich. Schon für meine erste Magazinseite [CSS Magazin](https://760545-11.web.fhgr.ch/magazin.html) habe ich viel Zeit gebraucht, um diese so zu gestalten. Das Wordpresstheme zu erstellen ging mit der Anleitung recht gut. Als dieses erstellt war, musste ich viel ausprobieren, googeln, ChatGBT und euch Dozenten für Hilfe fragen.
+Um erhlich zu sein, war das ganze Projekt eine Challenge für mich. Schon für meine erste Magazinseite [CSS Magazin](https://760545-11.web.fhgr.ch/magazin.html) habe ich viel Zeit gebraucht, um diese so zu gestalten. Das Wordpresstheme zu erstellen ging mit der Anleitung recht gut. Als dieses erstellt war, musste ich viel ausprobieren, googeln, ChatGBT und euch Dozenten für Hilfe fragen. Mit dem Endergebnis bin ich zu frieden.
 
 
 # Quellen
